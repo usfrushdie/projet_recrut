@@ -1,0 +1,53 @@
+/* Use this for the background image later */
+body {
+    
+        background-image: url('../images/33.jpg');
+        
+        background-repeat: no-repeat; 
+        background-size: cover;
+       
+       /* Center the background image */
+     
+        background-attachment: fixed;
+      
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px;
+    position: fixed; 
+    right: 0;
+    top: 0; 
+    left: 0; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;  
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.header-link:hover {
+    background-color: #1D425F;
+    color: white;
+}
+
+.header-link:active {
+    background-color: black;
+    color: white;
+}
